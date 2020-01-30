@@ -27,6 +27,8 @@ const (
 	TypescriptJsx
 )
 
+// NOTE: User Source as Bytes check go src for scanner and parser
+
 // Lexer uses a generated DFA to scan through a utf-8 encoded input string. If
 // the string starts with a BOM character, it gets skipped.
 type Lexer struct {
